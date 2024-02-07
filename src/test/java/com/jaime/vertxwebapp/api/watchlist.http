@@ -1,0 +1,12 @@
+PUT http://localhost:8080/pg/watchlist/100
+Content-type:application/json
+{
+  "assets": [
+    {
+      "name": "AMZN"
+    },
+    {
+      "name": "TSLA"
+    }
+  ]
+}
